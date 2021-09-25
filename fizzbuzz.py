@@ -5,6 +5,8 @@ def calculate(number):
         print('fizz')
     elif number % 5 == 0:
         print('buzz')
+    elif '7' in str(number):
+        print('Github')
     else:
         print(number)
 
